@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.spotifystreamer.Viewer">
+
+    <Button android:id="@+id/mybutton"
+        android:layout_width="198dp"
+        android:layout_height="264dp"
+        android:text="Search"
+        android:onClick="searchArtist"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:visibility="invisible">
+        <requestFocus />
+    </Button>
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="HERE I AM!"
+        android:layout_gravity="center_horizontal|bottom"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="303dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>
